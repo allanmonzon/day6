@@ -5,14 +5,12 @@ function myFunction() {
 		var x = Number(thimbles);
 		var y = Number(swords);
 		var sum = x + y * 37;
-		sum.toString();
 		var total = sum + ' monies';
   		document.getElementById('the-total').textContent = total;
 	};
 };
 
 myFunction();
-
 
 
 
